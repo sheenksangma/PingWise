@@ -1,0 +1,25 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "PingWise is a modern real-time chat application built with React, Node.js, Express, and MongoDB. It enables seamless one-to-one conversations with support for text and image sharing, profile management, and real-time updates via Socket.IO. Designed with a clean UI and responsive design, PingWise provides an intuitive and engaging chat experience.",
+  "main": "index.js",
+  "scripts": {
+    "install-backend": "cd backend && npm install",
+    "install-frontend": "cd frontend && npm install",
+    "build-frontend": "cd frontend && npm run build",
+    "build": "npm run install-backend && npm run install-frontend && npm run build-frontend",
+    "start": "npm run start --prefix backend"
+  },
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sheenksangma/PingWise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sheenksangma/PingWise/issues"
+  },
+  "homepage": "https://github.com/sheenksangma/PingWise#readme"
+}
