@@ -15,6 +15,10 @@
     "type": "git",
     "url": "git+https://github.com/sheenksangma/PingWise.git"
   },
+  "engines": {
+    "node": "18.x"
+  },
+  
   "keywords": [],
   "author": "",
   "license": "ISC",
